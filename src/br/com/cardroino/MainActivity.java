@@ -1,5 +1,5 @@
 package br.com.cardroino;
-
+//
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
