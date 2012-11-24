@@ -18,11 +18,10 @@ public final class R {
         public static final int logo_splash=0x7f020004;
     }
     public static final class id {
-        public static final int bluetoothstate=0x7f070000;
-        public static final int devicesfound=0x7f070002;
-        public static final int menu_bluetooth=0x7f070003;
-        public static final int menu_settings=0x7f070004;
-        public static final int scandevice=0x7f070001;
+        public static final int btn_procura_bluet=0x7f070000;
+        public static final int devicesfound=0x7f070001;
+        public static final int menu_bluetooth=0x7f070002;
+        public static final int menu_settings=0x7f070003;
     }
     public static final class layout {
         public static final int activity_bluetooth=0x7f030000;
