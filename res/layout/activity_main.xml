@@ -1,15 +1,57 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@layout/backrepeat_main" >
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
 
-    <TextView
+    <RelativeLayout
+        android:layout_width="459dp"
+        android:layout_height="221dp"
+        android:layout_x="41dp"
+        android:layout_y="28dp"
+        android:background="@drawable/controle" >
+    </RelativeLayout>
+    
+    <ImageButton
+        android:id="@+id/img_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".MainActivity" />
+        android:layout_x="167dp"
+        android:layout_y="123dp"
+        android:background="@drawable/botao_dir" />
 
-</RelativeLayout>
+    <ImageButton
+        android:id="@+id/img_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="312dp"
+        android:layout_y="123dp"
+        android:background="@drawable/botao_cima" />
+
+    <ImageButton
+        android:id="@+id/img_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="401dp"
+        android:layout_y="122dp"
+        android:background="@drawable/botao_baixo" />
+
+    <ImageButton
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="122dp"
+        android:background="@drawable/botao_esq" />
+
+    <ImageButton
+        android:id="@+id/img_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="236dp"
+        android:layout_y="80dp"
+        android:background="@drawable/farol_off" />
+
+    
+
+</AbsoluteLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="36dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:layout_x="124dp"
+        android:layout_y="50dp"
+        android:text="Cardroino"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="108dp"
+        android:text="Hideki Siva" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="178dp"
+        android:text="Engenharia da Computação" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="132dp"
+        android:text="Eli Rigobeli" />
+
+    <RelativeLayout
+        android:layout_width="469dp"
+        android:layout_height="230dp"
+        android:layout_x="26dp"
+        android:layout_y="20dp" >
+
+    </RelativeLayout>
+
+</AbsoluteLayout>

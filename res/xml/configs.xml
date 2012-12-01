@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:key="AcelManual" 
+        android:title="Tipo de Controle ?" 
+        android:summary="Manual / Acelerômetro" 
+        android:entryValues="@array/AMvalor_id" 
+        android:entries="@array/AMvalor" 
+        android:defaultValue="1"/>
+    
+
+</PreferenceScreen>
