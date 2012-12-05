@@ -5,52 +5,58 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="57dp"
-        android:layout_y="36dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_width="122dp"
+        android:layout_height="209dp"
+        android:layout_x="44dp"
+        android:layout_y="26dp"
+        android:src="@drawable/sobre_logo" />
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="88dp"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.05"
-        android:layout_x="124dp"
-        android:layout_y="50dp"
+        android:layout_x="190dp"
+        android:layout_y="32dp"
         android:text="Cardroino"
-        android:textStyle="bold" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="53dp"
-        android:layout_y="108dp"
-        android:text="Hideki Siva" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="52dp"
-        android:layout_y="178dp"
-        android:text="Engenharia da Computação" />
+        android:layout_x="193dp"
+        android:layout_y="66dp"
+        android:text="Trabalho de Conclusão de Curso" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="54dp"
-        android:layout_y="132dp"
-        android:text="Eli Rigobeli" />
-
-    <RelativeLayout
+        android:layout_x="193dp"
+        android:layout_y="114dp"
+        android:text="UNIVAP - Universidade do Vale do Paraíba" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="142dp"
+        android:text="Alunos: Eli Rigobeli e Hideki Siva" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="190dp"
+        android:text="http://code.google.com/p/cardroino/" />
+    
+     <RelativeLayout
         android:layout_width="469dp"
         android:layout_height="230dp"
         android:layout_x="26dp"
         android:layout_y="20dp" >
-
     </RelativeLayout>
-
+    
 </AbsoluteLayout>

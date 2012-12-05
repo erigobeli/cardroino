@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 
+// Classe para a tela splash screen
 public class SplashScreenRunnable extends Activity implements Runnable {
 
-	//3 segundos
+	// 3 segundos
 	private final int DELAY = 2000;
 	
 	@Override

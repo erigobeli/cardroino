@@ -11,10 +11,12 @@
     
 	 <item 	android:id="@+id/aboutus"
 			android:title="@string/menu_about_us"
+			android:icon="@android:drawable/ic_menu_info_details"
 			  />
 	 
     <item 	android:id="@+id/sair"
 			android:title="@string/menu_sair"
+			android:icon="@android:drawable/ic_lock_power_off"
 			  />
     
 </menu>
